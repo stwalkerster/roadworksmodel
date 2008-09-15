@@ -11,18 +11,18 @@
     <RootNamespace>RoadworksModel</RootNamespace>
     <AssemblyName>Roadworks Queue generator</AssemblyName>
     <MyType>WindowsForms</MyType>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <ManifestCertificateThumbprint>5D1A8798934FD0C868ABF4E8682238448D200C9B</ManifestCertificateThumbprint>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <TargetZone>LocalIntranet</TargetZone>
     <GenerateManifests>true</GenerateManifests>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <ManifestKeyFile>RoadworksModel_TemporaryKey.pfx</ManifestKeyFile>
     <OptionStrict>Off</OptionStrict>
     <OptionExplicit>On</OptionExplicit>
-    <PublishUrl>ftp://dialsim.profusehost.net/www/~swalker/software/roadworks/</PublishUrl>
+    <PublishUrl>/publish/</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -30,7 +30,6 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <InstallUrl>http://dialsim.profusehost.net/~swalker/software/roadworks/</InstallUrl>
     <TargetCulture>en-GB</TargetCulture>
     <ProductName>Roadworks Queue generator</ProductName>
     <PublisherName>Simon Walker</PublisherName>
@@ -139,7 +138,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="RoadworksModel_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
@@ -154,28 +152,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dotnetfx.exe" />
-    <Content Include="WindowsInstaller-KB893803-v2-x86.exe" />
-  </ItemGroup>
-  <ItemGroup>
-    <PublishFile Include="dotnetfx.exe">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <FileType>File</FileType>
-    </PublishFile>
-    <PublishFile Include="WindowsInstaller-KB893803-v2-x86.exe">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <FileType>File</FileType>
-    </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
