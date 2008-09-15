@@ -1,0 +1,14 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://dialsim.profusehost.net/www/~swalker/software/roadworks/|ftp://dialsim.profusehost.net/www/~swalker/roadworks/|G:\Simon%27s Docs\Programming\Visual Basic\roadworks\RoadworksModel\Publish\|J:\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://dialsim.profusehost.net/~swalker/software/roadworks/|http://dialsim.profusehost.net/~swalker/roadworks/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>G:\Simon%27s Docs\Programming\Visual Basic\roadworks\RoadworksModel\RoadworksModel</BootstrapperUrlHistory>
+    <ApplicationRevision>2</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
